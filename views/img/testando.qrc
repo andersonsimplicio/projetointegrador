@@ -1,0 +1,20 @@
+ <!DOCTYPE RCC><RCC version="1.0">
+<qresource>     
+    <file>wd.png</file>
+    <file>teste.png</file>
+    <file>troca.png</file>
+    <file>save.png</file>
+    <file>gradiente.png</file>
+    <file>lupa.png</file>
+    <file>natal.gif</file>
+    <file>estoque2.png</file>
+    <file>estoque.png</file>
+    <file>estoque3.png</file>
+    <file>sombreamento.png</file>
+    <file>logo.png</file>
+    <file>icon.png</file>
+    <file>icon2.png</file>
+    <file>icon3.png</file>
+    <file>calc2.png</file>
+</qresource>
+</RCC> 

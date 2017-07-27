@@ -1,0 +1,1 @@
+Este é apenas um projeto piloto para um software de controle de estoque.

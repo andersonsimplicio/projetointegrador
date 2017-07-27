@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1556</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+background-image: url(:/logo.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: bottom center;
+}
+</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnCadastro">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{ 
+   background-image: url(:/icon.png);
+   font: bold 14pt &quot;Verdana&quot;;
+   color: white;
+}
+
+QPushButton#quit_button
+{
+   background-image: url(:/icon.png);
+  font: bold 14pt &quot;Verdana&quot;;
+  color: white;
+} 
+QPushButton:hover
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+
+} 
+QPushButton:hover#quit_button
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+   
+}</string>
+    </property>
+    <property name="text">
+     <string>Cadastro</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnConsulta">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{ 
+   background-image: url(:/icon.png);
+   font: bold 14pt &quot;Verdana&quot;;
+   color: white;
+}
+
+QPushButton#quit_button
+{
+   background-image: url(:/icon.png);
+  font: bold 14pt &quot;Verdana&quot;;
+  color: white;
+} 
+QPushButton:hover
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+
+} 
+QPushButton:hover#quit_button
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+   
+}</string>
+    </property>
+    <property name="text">
+     <string>Consulta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRelatorios">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>110</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{ 
+   background-image: url(:/icon.png);
+   font: bold 14pt &quot;Verdana&quot;;
+   color: white;
+}
+
+QPushButton#quit_button
+{
+   background-image: url(:/icon.png);
+  font: bold 14pt &quot;Verdana&quot;;
+  color: white;
+} 
+QPushButton:hover
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+
+} 
+QPushButton:hover#quit_button
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+   
+}</string>
+    </property>
+    <property name="text">
+     <string>Relatórios</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMovimentacoes">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>110</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{ 
+   background-image: url(:/icon.png);
+   font: bold 14pt &quot;Verdana&quot;;
+   color: white;
+}
+
+QPushButton#quit_button
+{
+   background-image: url(:/icon.png);
+  font: bold 14pt &quot;Verdana&quot;;
+  color: white;
+} 
+QPushButton:hover
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+
+} 
+QPushButton:hover#quit_button
+{
+    background-image: url(:/ico.png);
+    font: bold 14pt &quot;Verdana&quot;;
+   
+}</string>
+    </property>
+    <property name="text">
+     <string>Movimentações</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCalculadora">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>110</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>OpenHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{ 
+background-image: url(:/calc2.png);
+background-position: center;
+font: bold 14pt &quot;Verdana&quot;;
+color: transparent;
+}
+
+QPushButton#quit_button
+{
+background-image: url(:/calc2.png);
+background-position: center;
+font: bold 14pt &quot;Verdana&quot;;
+color: transparent;
+} 
+QPushButton:hover
+{
+background-image: url(:/ico.png);
+font: bold 14pt &quot;Verdana&quot;;
+color: white;
+
+} 
+QPushButton:hover#quit_button
+{
+background-image: url(:/ico.png);
+font: bold 14pt &quot;Verdana&quot;;
+color: white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>F5</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1556</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuCadastro">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>C&amp;adastro</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="mCadastroCliente"/>
+    <addaction name="separator"/>
+    <addaction name="mCadastroFornecedor"/>
+    <addaction name="separator"/>
+    <addaction name="mCadastroProduto"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuConsulta">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>C&amp;onsulta</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="mConsultaCliente"/>
+    <addaction name="separator"/>
+    <addaction name="MConsultaFornecedor"/>
+    <addaction name="separator"/>
+    <addaction name="mConsultaProduto"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuMovimentacoes">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Movi&amp;mentações</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="mMovimentacoesEntrada"/>
+    <addaction name="separator"/>
+    <addaction name="mMovimentacoesSaida"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuAjuda">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Aju&amp;da</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="mAjudaAjuda"/>
+    <addaction name="separator"/>
+    <addaction name="mAjudaSobre"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuRelatorios">
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>R&amp;elatórios</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="mRelatoriosCompras"/>
+    <addaction name="separator"/>
+    <addaction name="mRelatoriosVendas"/>
+    <addaction name="separator"/>
+    <addaction name="mRelatoriosFornecedores"/>
+    <addaction name="separator"/>
+    <addaction name="mRelatoriosClientes"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuCadastro"/>
+   <addaction name="menuConsulta"/>
+   <addaction name="menuMovimentacoes"/>
+   <addaction name="menuRelatorios"/>
+   <addaction name="menuAjuda"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="mCadastroCliente">
+   <property name="text">
+    <string>Cliente</string>
+   </property>
+  </action>
+  <action name="mCadastroFornecedor">
+   <property name="text">
+    <string>Fornecedor</string>
+   </property>
+  </action>
+  <action name="mCadastroProduto">
+   <property name="text">
+    <string>Produto</string>
+   </property>
+  </action>
+  <action name="mConsultaCliente">
+   <property name="text">
+    <string>Cliente</string>
+   </property>
+  </action>
+  <action name="MConsultaFornecedor">
+   <property name="text">
+    <string>Fornecedor</string>
+   </property>
+  </action>
+  <action name="mConsultaProduto">
+   <property name="text">
+    <string>Produto</string>
+   </property>
+  </action>
+  <action name="mMovimentacoesEntrada">
+   <property name="text">
+    <string>Entrada</string>
+   </property>
+  </action>
+  <action name="mMovimentacoesSaida">
+   <property name="text">
+    <string>Saída</string>
+   </property>
+  </action>
+  <action name="mAjudaAjuda">
+   <property name="text">
+    <string>Ajuda</string>
+   </property>
+  </action>
+  <action name="mAjudaSobre">
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="mRelatoriosCompras">
+   <property name="text">
+    <string>Compras</string>
+   </property>
+  </action>
+  <action name="mRelatoriosVendas">
+   <property name="text">
+    <string>Vendas</string>
+   </property>
+  </action>
+  <action name="mRelatoriosFornecedores">
+   <property name="text">
+    <string>Fornecedores</string>
+   </property>
+  </action>
+  <action name="mRelatoriosClientes">
+   <property name="text">
+    <string>Clientes</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="C:/Users/Administrador/Desktop/img/testando.qrc"/>
+ </resources>
+ <connections/>
+</ui>
